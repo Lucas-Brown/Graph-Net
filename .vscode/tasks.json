@@ -12,7 +12,9 @@
                 "${fileWorkspaceFolder}/build/${fileBasenameNoExtension}",
                 "-llapacke",
                 "-llapack",
-                "-lblas"
+                "-lblas",
+                "-ldl",
+                "-lm"
             ],
             "options": {
                 "cwd": "${fileDirname}"
